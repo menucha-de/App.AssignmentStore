@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+@url SCAN scan;
+
+.label {
+	font-weight: bold;
+}
+
+.scanButton {
+	min-width: 61px;
+	width: 61px;
+	height: 58px;
+	border-style: hidden;
+	background-image: SCAN;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.text-error {
+	border: 1px #ff0000 solid;
+	border-radius: 22px;
+	box-shadow: inset 1px 2px 5px 1px rgba(255, 0, 0, 0.3);
+}
+	
+.text-success {
+	border: 1px #00ff00 solid;
+	border-radius: 22px;
+	box-shadow: inset 1px 2px 5px 1px rgba(0, 255, 0, 0.3);
+}
